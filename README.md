@@ -1,9 +1,11 @@
 #wCK.py
 ---
 
-A python library to program wCK series servo from [RoboBuilder](http://www.robobuilder.net/eng/index.asp). Trying to replicate functions of [wCK Programmer](http://robosavvy.com/RoboSavvyPages/Robobuilder/robobuilder-creator-users-manual.pdf).
+A python library to program wCK series servo from [RoboBuilder](http://www.robobuilder.net/eng/index.asp). This is an attempt to replicate functions of [wCK Programmer](http://robosavvy.com/RoboSavvyPages/Robobuilder/robobuilder-creator-users-manual.pdf), which is available only for Microsoft Windows OS.
 
 You will need [pySerial](http://pyserial.sourceforge.net) library for this.
+
+This is a work in progress!
 
 ---
 ####Resources
