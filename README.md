@@ -1,7 +1,7 @@
 #wCK.py
 ---
 
-A python library to program wCK series servo from [RoboBuilder](http://www.robobuilder.net/eng/index.asp). This is an attempt to replicate functions of [wCK Programmer](http://robosavvy.com/RoboSavvyPages/Robobuilder/robobuilder-creator-users-manual.pdf), which is available only for Microsoft Windows (darn!).
+A python library to control wCK servo from [RoboBuilder](http://www.robobuilder.net/eng/index.asp). This is an attempt to replicate functions of wCK Programmer, which is available only for Microsoft Windows (darn it!).
 
 You will need [pySerial](http://pyserial.sourceforge.net) library for this.
 
@@ -10,7 +10,7 @@ This is a work in progress!
 ---
 ####Usage
 
-*Start python intepreter*
+*Start python interpreter*
 
 `$ python`
 
@@ -18,7 +18,7 @@ This is a work in progress!
 
 `>>> from wck import servo`
 
-*Create instnce*
+*Create instance with serial port, baud rate and servo id*
 
 `>>> a = servo("/dev/tty.SLAB_USBtoUART",115200,0)`
 
@@ -51,6 +51,3 @@ This is a work in progress!
 
 [Understanding wCK module and 
 C programming with RoboBuilder](http://ro-botica.com/img/Robobuilder/RoboBuilder%20C_tutorial%20.pdf)
-
-
-
