@@ -8,6 +8,41 @@ You will need [pySerial](http://pyserial.sourceforge.net) library for this.
 This is a work in progress!
 
 ---
+####Usage
+
+*Start python intepreter*
+
+`$ python`
+
+*Import servo*
+
+`>>> from wck import servo`
+
+*Create instnce*
+
+`>>> a = servo("/dev/tty.SLAB_USBtoUART",115200,0)`
+
+*Send servo position command*
+
+`>>> a.pos(4.102)`
+
+*Couninous run servo counter clockwise direction*
+
+`>>> a.ccw(12)`
+
+*Couninous run servo clockwise direction*
+
+`>>> a.cw(12)`
+
+*Stop servo*
+
+`>>> a.cw(0)`
+
+*Close serial port*
+
+`>>> a.closeSerial()`
+
+---
 ####Resources
 
 [wCK User's Manual](http://robosavvy.com/RoboSavvyPages/Robobuilder/robobuilder-creator-users-manual.pdf)
