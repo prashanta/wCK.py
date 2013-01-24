@@ -24,7 +24,11 @@ This is a work in progress!
 
 *Send servo position command*
 
-`>>> a.pos(4.102)`
+`>>> a.pos(4,102)`
+
+*Read sevo position*
+
+`>>> a.readPos()`
 
 *Continuous run servo counter clockwise direction*
 
